@@ -204,7 +204,13 @@
  
     // 繰り返し実行する処理
     function timer(){  
-        
+        if (active){
+            var time=parseInt( (new Date()- startTime)/1000);
+            var rest =period-time;$("#tome").html("経過時間： "+time);
+            $("#残り時間： ").html(""+ rest);
+            analog(rest);
+            
+        } 
         
     } 
 
