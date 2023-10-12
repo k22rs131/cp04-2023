@@ -1,6 +1,9 @@
 /**/
      body{
-         background: skyblue;
+         background-color: skyblue;
+    }
+    button{
+        color: blue;
     }
     #minuteStr {
         color: #ff0000;
