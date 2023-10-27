@@ -65,21 +65,33 @@
     
     #btnA {
         font-size: 20px;
-        position:absolute; top:380px; left:2%; width:43%; height:60px; 
+        position:absolute; top:380px; left:2%; width:37%; height:60px; 
         background-color: white;
         color: blue;
+        margin: 0 auto;
     }
     
     #btnB {
         font-size: 20px;
-        position:absolute; top:380px; left:45%; width:25%; height:60px; 
+        position:absolute; top:380px; left:39%; width:20%; height:60px; 
         background-color: white;
+        margin: 0 auto;
     }
 
     #btnC {
         font-size: 20px;
-        position:absolute; top:380px; left:70%; width:28%; height:60px; 
+        position:absolute; top:380px; left:59%; width:22%; height:60px; 
         background: white;
+        margin: 0 auto;
+
+    }
+
+
+    #btnD {
+        font-size: 20px;
+        position:absolute; top:380px; left:81%; width:16%; height:60px; 
+        background: white;
+        margin: 0 auto;
 
     }
     
